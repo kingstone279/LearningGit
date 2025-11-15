@@ -22,15 +22,15 @@ body{
     }
 }
 .the_figure{
-    
     background: white;
     border-radius: 20px;
     padding: 20px;
-    
+    margin: 30% 30%;
 }
 img{
      max-width: 100%;
      height: auto;
+     
      border-radius: 20px;
 }
 p{
