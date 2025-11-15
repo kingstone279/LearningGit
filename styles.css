@@ -35,6 +35,12 @@ img{
 }
 p{
     font-size: 15px;
+    text-align: center;
+    color: hsl(216, 15%, 48%);
+}
+h2{
+    text-align: center;
+    color: hsl(218, 44%, 22%);
 }
 
 .outfit-light-italic{
