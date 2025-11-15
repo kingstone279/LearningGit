@@ -3,6 +3,9 @@ body{
     font-size: 16px;
     margin: 16px;
     background: hsl(212, 45%, 89%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 @media (min-width: 768px){
@@ -19,11 +22,11 @@ body{
     }
 }
 .the_figure{
-    text-align: center;
+    
     background: white;
     border-radius: 20px;
     padding: 20px;
-    margin: 0 20%;
+    
 }
 img{
      max-width: 100%;
