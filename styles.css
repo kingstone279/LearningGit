@@ -1,0 +1,57 @@
+/* Base styles: Mobile-first (320px and up) */
+body{
+    font-size: 16px;
+    margin: 16px;
+    background: hsl(212, 45%, 89%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (min-width: 768px){
+    body{
+        font-size: 17px;
+        margin: 24px;
+    }
+}
+
+@media (min-width: 1440px){
+    body{
+        font-size: 18px;
+        margin: 2px;
+    }
+}
+.the_figure{
+    background: white;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 20% 20%;
+}
+img{
+     max-width: 100%;
+     height: auto;
+     
+     border-radius: 20px;
+}
+p{
+    font-size: 15px;
+    text-align: center;
+    color: hsl(216, 15%, 48%);
+}
+h2{
+    text-align: center;
+    color: hsl(218, 44%, 22%);
+}
+
+.outfit-light-italic{
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: italic;
+}
+.outfit-bold{
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
